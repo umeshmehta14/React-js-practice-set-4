@@ -3,13 +3,15 @@ import './App.css';
 import  {Tab} from './Components/Question1';
 import Question2 from './Components/Question2';
 import Question3 from './Components/Question3';
+import Question4 from './Components/Question4';
 
 function App() {
   return (
     <div className="App">
       {/* <Tab/> Question 1 */}
       {/* <Question2/> */}
-      <Question3/>
+      {/* <Question3/> */}
+      <Question4/>
     </div>
   );
 }
