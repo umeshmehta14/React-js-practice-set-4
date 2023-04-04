@@ -1,11 +1,13 @@
 
 import './App.css';
 import  {Tab} from './Components/Question1';
+import Question2 from './Components/Question2';
 
 function App() {
   return (
     <div className="App">
-      <Tab/>
+      {/* <Tab/> Question 1 */}
+      <Question2/>
     </div>
   );
 }
