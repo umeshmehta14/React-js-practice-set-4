@@ -1,5 +1,6 @@
 
 import './App.css';
+import JH from './Components/JH';
 import  {Tab} from './Components/Question1';
 import Question2 from './Components/Question2';
 import Question3 from './Components/Question3';
@@ -15,9 +16,10 @@ function App() {
       {/* <Question2/> */}
       {/* <Question3/> */}
       {/* <Question4/> */}
-      {/* <Question5/> */}
+      <Question5/>
       {/* <Question6/> */}
-      <Question7/>
+      {/* <Question7/> */}
+      {/* <JH/> */}
     </div>
   );
 }
